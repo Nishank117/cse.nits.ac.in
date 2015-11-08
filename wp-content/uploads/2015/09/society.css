@@ -1,0 +1,187 @@
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	-webkit-perspective: 900px;
+	-moz-perspective: 900px;
+	-o-perspective: 900px;
+	-ms-perspective: 900px;
+	perspective: 900px;
+}
+.ch-info{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+.ch-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+	-webkit-transform-origin: 50% 0%;
+	-moz-transform-origin: 50% 0%;
+	-o-transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+}
+
+.ch-info .ch-info-front {
+	box-shadow: inset 0 0 0 16px rgba(0,0,0,0.3);
+}
+
+.ch-info .ch-info-back {
+	-webkit-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-moz-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-o-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-ms-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	background: #000;
+	opacity: 0;
+}
+
+.ch-img-divye { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/divye.jpg);
+}
+
+.ch-img-tulika { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/tulika.jpg);
+}
+
+.ch-img-sumit { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/sumit.jpg);
+}
+
+.ch-img-aditya { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/aditya.jpg);
+}
+.ch-img-ayush { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/ayush.jpg);
+}
+.ch-img-utkarsh { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/utkarsh.jpg);
+}
+.ch-img-aklank { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/aklank.jpg);
+}
+.ch-img-shruti { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/shruti.jpg);
+}
+.ch-img-tushar { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/tushar.jpg);
+}
+.ch-img-gaurav { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/gaurav.jpg);
+}
+.ch-img-ashwani { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/ashwani.jpg);
+}
+.ch-img-pranav { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/pranav.jpg);
+}
+.ch-img-ronit { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/ronit.jpg);
+}
+.ch-img-aniket { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/aniket.jpg);
+}
+.ch-img-anirban { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/anirban.jpg);
+}
+.ch-img-priya { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/priya.jpg);
+}
+.ch-img-nitish { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/nitish.jpg);
+}
+.ch-img-sagar { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/sagar.jpg);
+}
+.ch-img-harshit { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/harshit.jpg);
+}
+.ch-img-parag { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/parag.jpg);
+}
+.ch-img-chinmoy { 
+	background-image: url(http://cse.nits.ac.in/wp-content/uploads/2015/09/chinmoy.jpg);
+}
+
+
+
+
+.ch-info h3 {
+	color: #fff;
+	font-style: bold;
+	
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin: 0 15px;
+	padding: 60px 0 0 0;
+	height: 110px;
+	font-family: 'Exo 2', sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: bold;
+	margin: 0 30px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	letter-spacing: +0.5px;
+	font-size: 15px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+	color: #fff222;
+	color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover .ch-info-front {
+	-webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-moz-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-o-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-ms-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	opacity: 0;
+}
+
+.ch-item:hover .ch-info-back {
+	-webkit-transform: rotate3d(1,0,0,0deg);
+	-moz-transform: rotate3d(1,0,0,0deg);
+	-o-transform: rotate3d(1,0,0,0deg);
+	-ms-transform: rotate3d(1,0,0,0deg);
+	transform: rotate3d(1,0,0,0deg);
+	opacity: 1;
+}

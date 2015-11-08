@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300);
+.exo{
+	font-family: 'Exo 2', sans-serif;
+	}
+
+.yanone{
+	letter-spacing: +0.5px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.exo_head{
+	font-family: 'Exo 2', sans-serif;
+	font-size:20px; color:white; margin:5px; line-height:1.5em;
+}
+
+.back_main{
+	height:100%; background-image: url('http://cse.nits.ac.in/wp-content/uploads/2015/03/bg_orange2.jpg');  border-radius:5px;
+}
+
+.hor_line{
+	width: 100%; border: 0;    height: 3px;  background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
